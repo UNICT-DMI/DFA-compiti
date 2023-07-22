@@ -14,6 +14,4 @@ hide:
 
 Utilizza il **pannello di navigazione** sinistro per raggiungere il compito di tuo interesse oppure utilizza la **barra di ricerca**.
 
-
-
 [Vai ai compiti :material-arrow-right:](2023-07-12-itinere.md){ .md-button }
