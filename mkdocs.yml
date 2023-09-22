@@ -272,7 +272,11 @@ nav:
       - Fisica Generale 2:
          - fisica-2/index.md
          - 2023:
+            - fisica-2/2023-07-12-completa.md
             - fisica-2/2023-07-12-itinere.md
+            - fisica-2/2023-09-06-completa.md
+            - fisica-2/2023-09-06-itinere.md
+            - fisica-2/2023-09-20-itinere.md
       - Meccanica analitica:
          - meccanica-analitica/index.md
          - 2013:
