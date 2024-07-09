@@ -8,7 +8,7 @@ repo_name: DFA-compiti
 repo_url: https://github.com/unict-dmi/DFA-compiti
 edit_uri: edit/main/docs/ #disables edit button
 
-# Copyright
+## Copyright
 copyright: Licenza CC-BY-SA-4.0
 
 ## Social Media e Analytics
@@ -29,9 +29,6 @@ extra:
       - accept
       - reject
   social:
-#    - icon: fontawesome/brands/twitter
-#      link: https://twitter.com/DfaUnict
-#      name: Twitter
     - icon: fontawesome/brands/github
       link: https://github.com/UNICT-DMI/DFA-compiti
       name: GitHub
@@ -41,17 +38,18 @@ extra:
 
 
 
-# Configuration
+## Configuration
 theme:
   name: material
   custom_dir: overrides
   language: it
+  font:
+    text: Mulish
   features:
     - navigation.top
     - navigation.footer
     - content.action.edit
     - navigation.tabs
-#    - navigation.sections
     - navigation.indexes
 
   palette:
@@ -62,8 +60,8 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
     - scheme: slate
-      primary: green
-      accent: green
+      primary: teal
+      accent: teal
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -101,43 +99,43 @@ plugins:
         utm_campaign: "feed-syndication"
 
 markdown_extensions:
-- toc:
-        permalink: ↵
-- meta
-- md_in_html
-- mkdocs-click
-- pymdownx.highlight
-- pymdownx.inlinehilite
-- pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
-- pymdownx.tabbed
-- pymdownx.critic:
-      mode: view
-- pymdownx.betterem:
-      smart_enable: all
-- pymdownx.caret
-- pymdownx.mark
-- pymdownx.tilde
-- pymdownx.smartsymbols
-- pymdownx.keys
-- admonition
-- pymdownx.details
-- pymdownx.tasklist:
-      clickable_checkbox: true
-- pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-- attr_list
-- def_list
-- abbr
-- pymdownx.snippets
-- footnotes
-- tables
-- pymdownx.arithmatex:
-      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+          permalink: ↵
+  - meta
+  - md_in_html
+  - mkdocs-click
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.tabbed
+  - pymdownx.critic:
+        mode: view
+  - pymdownx.betterem:
+        smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - pymdownx.keys
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+        clickable_checkbox: true
+  - attr_list
+  - def_list
+  - abbr
+  - pymdownx.snippets
+  - footnotes
+  - tables
+  - pymdownx.arithmatex:
+        generic: true
 
 ## Custom theme additions
 extra_javascript:

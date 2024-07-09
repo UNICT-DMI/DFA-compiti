@@ -5,18 +5,42 @@ hide:
   - footer
 ---
 
-# Benvenutə nell'archivio testi esami DFA (UniCT)
+# **Benvenutə nell'archivio testi esami DFA (UniCT)**
 
-In questo sito saranno raccolti i testi di alcuni esami scritti sostenuti dagli studenti e dalle studentesse del Dipartimento di Fisica e Astronomia dell' Università di Catania. I testi sono divisi per anno e materie. Si consiglia di utilizzare la barra di ricerca per trovare i testi di interesse. Qualora alcune soluzioni non dovessero essere presenti, si prega di valutare la possibilità di [contribuire al progetto](note.md).
+In questo sito saranno raccolti i testi di alcuni **esami scritti** sostenuti dagli studenti e dalle studentesse del *Dipartimento di Fisica e Astronomia "E. Majorana" dell'Università di Catania*. I testi sono divisi per anno e materie. Si consiglia di utilizzare la barra di ricerca per trovare i testi di interesse. Mancano delle soluzioni? Hai trovato degli errori? Valuta la possibilità di [contribuire al progetto](note)!
 
-Vai ai contenuti 
+<br>
 
-[:material-school-outline: Primo anno](cursus/primo-anno.md){ .md-button }
+<div class="grid cards" markdown>
 
-[:material-school-outline: Secondo anno](cursus/secondo-anno.md){ .md-button }
+-   :material-school-outline:{ .lg .middle } __Primo anno__
 
-[:material-school-outline: Terzo anno](cursus/terzo-anno.md){ .md-button }
+    ---
 
+    Sfoglia i testi compiti scritti delle materie del primo anno: Fisica 1, Analisi 1
+
+    [:octicons-arrow-right-24: Apri](cursus/primo-anno.md)
+
+-   :material-school-outline:{ .lg .middle } __Secondo anno__
+
+    ---
+
+    Sfoglia i testi compiti scritti delle materie del secondo anno: Fisica 2, Analisi 2, Meccanica analitica
+
+    [:octicons-arrow-right-24: Apri](cursus/secondo-anno.md)
+
+-   :material-school-outline:{ .lg .middle } __Terzo anno__
+
+    ---
+
+    Sfoglia i testi compiti scritti delle materie del terzo anno
+
+    [:octicons-arrow-right-24: Apri](cursus/terzo-anno.md)
+
+
+</div>
+
+<br>
 
 !!! info
 
