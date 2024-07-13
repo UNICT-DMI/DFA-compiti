@@ -79,6 +79,9 @@ plugins:
   - git-revision-date-localized:
       type: timeago
       enable_creation_date: true
+  - git-committers:
+      repository: UNICT-DMI/DFA-compiti
+      branch: main
   - search:
         lang: it
 #  - rss:
